@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="module" src="main.js"></script>
+</head>
+
+
+<body class="custom-bck">
+
+<div class="container"> <!--Body-->
+
+	<div class = "row text-center"> <!--Page title-->
+	    <h2 class="title container-fluid">My calculator project</h2>
+	</div> <!--Page Title-->
+  
+  	<div class = "container-fluid calculator"> <!--Calculator container-->
+	   
+	   	<!-- Display -->
+		<div class="flex-column display-truncate" id="wrap">
+				<div class="equation ">
+				</div>
+				<div class="bottom" id="fit">0	
+				</div>
+		</div> <!--DISPLAY END-->
+
+		<!-- Buttons -->
+		<div class="btn-container">
+
+			<div class="flex-column btn-column">
+					<button id = "ac" class = "btn btn-danger">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        AC    
+						    </strong>
+						</span>
+					</button>
+					<button id = "seven" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        7    
+						    </strong>
+						</span>
+					</button>	
+					<button id = "four" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        4    
+						    </strong>
+						</span>
+					</button>			
+				
+					<button id = "one" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        1   
+						    </strong>
+						</span>
+					</button>
+				
+					<button id = "zero" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        0    
+						    </strong>
+						</span>
+					</button>
+
+			</div>
+
+			<div class="flex-column btn-column">
+					<button id = "clear" class = "btn btn-danger">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        C    
+						    </strong>
+						</span>
+					</button>
+
+
+					<button id = "eight" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        8    
+						    </strong>
+						</span>
+					</button>
+
+
+					<button id = "five" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        5    
+						    </strong>
+						</span>
+					</button>
+
+
+					<button id = "two" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        2    
+						    </strong>
+						</span>
+					</button>
+
+
+					<button id = "dot" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        .    
+						    </strong>
+						</span>
+					</button>
+												
+			</div>	
+
+			<div class="flex-column btn-column">
+					<button id = "pct" class = "btn btn-primary">
+						<i class="fas fa-percent"></i>
+					</button>
+					<button id = "nine" class = "btn btn-primary">
+					  	<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        9    
+						    </strong>
+						</span>
+					</button>
+
+					<button id = "six" class = "btn btn-primary">
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        6    
+						    </strong>
+						</span>
+					</button>
+					<button id = "three" class = "btn btn-primary">
+
+						<span class="fa-stack">
+						    <strong class="fa-stack-1x">
+						        3    
+						    </strong>
+						</span>
+					</button>
+					<button id = "equal" class = "btn btn-primary">
+					  	<i class="fas fa-equals"></i>
+					</button>				
+			</div>
+
+			<div class="flex-column btn-column">
+					<button id = "sign" class = "btn btn-warning">
+						<span class="fa-stack">
+							<i class="fas fa-plus"></i>
+							<strong class="fa-stack-1x">
+						       /   
+						    </strong>
+							<i class="fas fa-minus"></i>
+
+						</span>
+					</button>
+
+					<button id = "div" class = "btn btn-primary">
+					 	<i class="fas fa-divide"></i>
+					</button>
+					<button id = "times" class = "btn btn-primary">
+					 	<i class="fas fa-times"></i>
+					</button>
+					<button id = "minus" class = "btn btn-primary">
+					 	<i class="fas fa-minus"></i>
+					</button>
+					<button id = "plus" class = "btn btn-primary pl">
+						<i class="fas fa-plus"></i>
+
+					</button>
+				</div>
+			</div> <!-- End buttons container -->	
+  		</div> <!--END Calculator container-->
+
+		<div class = "row text-center">
+	    	<p class="container-fluid">designed by <a href="#" target="_blank">Laura</a></p>
+	  	</div>
+
+<!-- HASTA ACA -->
+</div>
+
+</body>
+</html>

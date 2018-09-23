@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+
+.pl {
+  height: 84px !important;
+}
+.btn {
+  height: 40px;
+  margin: 2px;
+  text-align: center;
+  padding: 0 auto;
+  font-size: 100%;
+  width:4em;
+}
+
+.hid{
+  visibility: hidden;
+}
+
+.equation{
+  font-size: 15px;
+  min-height: 22px;
+  padding: 2px;
+}
+.bottom{
+  font-size: 30px;
+  display: inline-block;
+  margin-top: auto;
+  padding: 2px;
+}
+
+.calculator{
+  background-color: #dac292;
+  width: 100%;
+  border-radius: 10px;
+  border-style: outset;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.display-truncate{
+  border-radius: 4px;
+  min-height: 7em;
+  padding: 5px 5px 0px 5px;
+  background-color: black;
+  text-align: right;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-items: flex-end;
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.btn-column{
+  padding: 0 auto;
+  margin: 0 auto;
+  display: inline-flex;
+}
+
+.btn-container{
+  display: flex;
+  max-width: 300px;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.btn-primary{
+  background-color: #0489B1;
+}
+
+.title{
+    min-width: 300px;
+}
