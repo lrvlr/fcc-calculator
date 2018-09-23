@@ -99,7 +99,7 @@ var calculator = function(){
   this.clearActual = function () {
     this.actual.reset();
     this.display.refreshResult();
-    this.numberState = new numberWritten(this);
+    this.numberState = new notWritting(this);
   }
 
   this.clearPrev = function (){
@@ -115,6 +115,7 @@ var calculator = function(){
     this.functionStack = [];
     this.functionStack.push(new endPromise(this.acc));
     this.clearPrev();
+    this.numberState = new numberWritten(this);
   }
  /*---END CLEAR FUNCTIONS----*/
   

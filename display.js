@@ -1,6 +1,6 @@
 
 var checkFontSize = function(length){
-		var fit = document.getElementById("fit"),
+		var fit = document.getElementById("display"),
 			wrap = document.getElementById("wrap"),
 		  	step = 4,
 		  	currentSize;
