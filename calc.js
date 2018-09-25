@@ -4,7 +4,7 @@ import { notWritting, numberWritten, decimalWritting, integerWritting } from './
 import { noFunction, eqFunction } from './funcState.js';
 
 
-var max_decimals = 50;
+var max_decimals = 17; //Max decimals for javascript
 
 var addPromise = function(oldAcc){
   var oldAccAux = new numberWithDecimals(0,0, max_decimals);
